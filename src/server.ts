@@ -1,16 +1,8 @@
 import * as http from 'http';
-import { getListOfPodcasts } from "./controllers/podcasts-controller";
+import { app } from './app';
 
-const server = http.createServer(
-  async (req: http.IncomingMessage, res: http.ServerResponse) => {
 
-  if(req.method === 'GET' ) {
-    await getListOfPodcasts(req, res);
-  } else {
-    res.writeHead(404, {'Content-Type': 'application/json'});
-    res.end(JSON.stringify({ error: 'Not Found' }));
-  }
-});
+const server = http.createServer(app);
 
 const port  = process.env.PORT || 3333;
 server.listen(port, ()=>{

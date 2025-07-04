@@ -10,5 +10,11 @@
     "episode": "The Supreme Court’s New Term",
     "podcastUrl": "https://www.nytimes.com/2023/10/02/podcasts/the-daily/supreme-court-new-term.html",
     "podcastImage": "https://static01.nyt.com/images/2018/10/30/podcasts/the-daily-logo/the-daily-logo-thumbLarge.png"
+  },
+  {
+    "podcastName": "Flow",
+    "episode": "The floe",
+    "podcastUrl": "https://flowpodcast.com/episodes/the-flow",
+    "podcastImage": "https://flowpodcast.com/episodes/the-flow/image.jpg"
   }
 ]
